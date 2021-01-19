@@ -169,3 +169,6 @@ class TestBasicMath(unittest.TestCase):
         random_number_list = [33, 24, 23, 92, 30, 40, 38, 95, 87, 69, 68]
         pred = bm.get_median(random_number_list)
         self.assertEqual(pred, 40)
+
+if __name__ == '__main__':
+    unittest.main()
